@@ -8,7 +8,6 @@ import CONSTANTS
 from mongo_service import make_connection
 
 # Set up your OpenAI API credentials
-openai.api_key = "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"
 chunk_size = 8  # Number of pages to process at a time
 
 CONDENSE_PROMPT = 'Given the following conversation and a follow up question, You are a helpful AI assistant. ' \
